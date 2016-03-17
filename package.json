@@ -1,0 +1,31 @@
+{
+  "name": "sugoibot",
+  "version": "0.1.0",
+  "description": "すごい！",
+  "license": "AGPL-3.0",
+  "author": {
+    "name": "Francisco Gómez",
+    "email": "espectalll123@kydara.com",
+    "url": "https://e123.mybluemix.net/"
+  },
+  "homepage": "https://telegram.me/sugoibot",
+  "repository": {
+    "type": "git"
+  },
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "dependencies": {
+    "coffee-script": ">= 1.0.0",
+    "node-telegram-bot-api": "^0.21.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">= 1.0.0"
+  },
+  "scripts": {
+    "install": "./node_modules/coffee-script/bin/coffee -c --no-header server.coffee"
+  },
+  "main": "server.js"
+}
